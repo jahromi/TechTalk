@@ -75,6 +75,7 @@ Pushing is how you transfer commits from your local repository to a remote repo.
 
 #### Git remote
 A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server.
+
 ![Git remote](https://www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction/basic-remote-workflow.png)
 
 #### Pull request
