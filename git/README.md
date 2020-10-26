@@ -122,7 +122,13 @@ Here are some links to training for the GitHub:
 * [GitHub Guides](https://guides.github.com/)
 
 ## Git Internal
+Git is directed acyclic graph([Learn more about the directed acyclic graph here](https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688)).  This means the last commit always knows the information related to the commit before and this chain continue.
 
+![Git Graph](https://git-scm.com/book/en/v2/images/undomerge-start.png)
+
+Git uses SHA1 to detect any changes in the files. This means Git compares the files SHA1 hashes. Once the hashes are different from each other, Git understands that the file content is modified. Git uses tree object to list the files the tree to keep the relation between directories and files. It also keeps the file contents in blobs. Here is glance at commit structure.
+
+![Git Internals](https://git-scm.com/book/en/v2/images/data-model-4.png)
 ## Gitflow Workflow
 Gitflow Workflow is a Git workflow design that was first published and made popular by Vincent Driessen at nvie. The Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects. 
 
@@ -145,6 +151,7 @@ Gitflow Workflow is a Git workflow design that was first published and made popu
 3. [Lecture 6: Version Control (git) (2020)](https://www.youtube.com/watch?v=2sjqTHE0zok)
 4. [Advanced GIT for Developers - Lorna Jane Mitchell - Laracon EU 2015](https://www.youtube.com/watch?v=duqBHik7nRo)
 5. [GOTO 2015 • Deep Dive into Git • Edward Thomson](https://www.youtube.com/watch?v=dBSHLb1B8sw)
+6. [Git Internals - How Git Works - Fear Not The SHA!](https://www.youtube.com/watch?v=P6jD966jzlk&vl=en)
 ### Cheat Sheets
 1. [Git cheat sheet by Bitbucket](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 2. [Git cheat sheet by GitHub (1)](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
