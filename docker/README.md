@@ -4,21 +4,21 @@ Before we start reviewing Docker, we need to take a look at the concept of Infra
 
 ### Infrastructure as a service (IaaS)
 
-    TIaaS, is a step away from on-premises infrastructure. It’s a pay-as-you-go service where a third party provides you with infrastructure services, like storage and virtualization, as you need them, via a cloud, through the internet. 
+IaaS, is a step away from on-premises infrastructure. It’s a pay-as-you-go service where a third party provides you with infrastructure services, like storage and virtualization, as you need them, via a cloud, through the internet. 
 
-    As the user, you are responsible for the operating system and any data, applications, middleware, and runtimes, but a provider gives you access to, and management of, the network, servers, virtualization, and storage you need. 
+As the user, you are responsible for the operating system and any data, applications, middleware, and runtimes, but a provider gives you access to, and management of, the network, servers, virtualization, and storage you need. 
 
 ### Platform as a service (PaaS)
 
-    PaaS is another step further from full, on-premise infrastructure management. It is where a provider hosts the hardware and software on its own infrastructure and delivers this platform to the user as an integrated solution, solution stack, or service through an internet connection.
+PaaS is another step further from full, on-premise infrastructure management. It is where a provider hosts the hardware and software on its own infrastructure and delivers this platform to the user as an integrated solution, solution stack, or service through an internet connection.
 
-    Primarily useful for developers and programmers, PaaS allows the user to develop, run, and manage their own apps without having to build and maintain the infrastructure or platform usually associated with the process. 
+Primarily useful for developers and programmers, PaaS allows the user to develop, run, and manage their own apps without having to build and maintain the infrastructure or platform usually associated with the process. 
 
 
 ### Software as a service (SaaS)
-    SaaS, also known as cloud application services, is the most comprehensive form of cloud computing services, delivering an entire application that is managed by a provider, via a web browser. 
+SaaS, also known as cloud application services, is the most comprehensive form of cloud computing services, delivering an entire application that is managed by a provider, via a web browser. 
 
-    Software updates, bug fixes, and general software maintenance are handled by the provider and the user connects to the app via a dashboard or API. There’s no installation of the software on individual machines and group access to the program is smoother and more reliable. 
+Software updates, bug fixes, and general software maintenance are handled by the provider and the user connects to the app via a dashboard or API. There’s no installation of the software on individual machines and group access to the program is smoother and more reliable. 
 
 ![IaaS,PaaS and SaaS](https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram5.1-1638x1046.png)
 
@@ -73,8 +73,8 @@ The Docker software as a service offering consists of three components:
 
 ### How Docker Works under the hood
 
-![](./media/figure1.png)
-![](./media/figure2.png)
+![Linux Namespaces](./media/figure1.png)
+![PID Namespaces](./media/figure2.png)
 
 ## More Contents
 ### To read
@@ -82,6 +82,7 @@ The Docker software as a service offering consists of three components:
 2. [Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces#:~:text=Namespaces%20are%20a%20fundamental%20aspect,type%2C%20used%20by%20all%20processes.)
 3. [Under the hood: understanding docker Containers and images](https://medium.com/codeengineer/understanding-docker-containers-and-images-af40f229ecb3)
 4. [Docker official documentation](https://docs.docker.com/)
+5. [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.com/free-code-camp/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 
 ### To watch
 1. [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo)
