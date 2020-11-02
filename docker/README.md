@@ -43,9 +43,20 @@ A container is a standard unit of software that packages up code and all its dep
 
 ![Container vs Hypervisor](https://images.contentstack.io/v3/assets/blt300387d93dabf50e/bltb6200bc085503718/5e1f209a63d1b6503160c6d5/containers-vs-virtual-machines.jpg)
 
-### Docker Eco-System
+### Docker architecture
+
+Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface.
 
 ![Docker Eco-System](https://docs.docker.com/engine/images/architecture.svg)
+
+### Docker Engine
+
+Docker Engine is a client-server application with these major components:
+* A server which is a type of long-running program called a daemon process.
+* A REST API which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
+* A command line interface (CLI) client (the docker command).
+
+![Docker Engine](https://docs.docker.com/engine/images/engine-components-flow.png)
 #### Components
 The Docker software as a service offering consists of three components:
 
@@ -60,13 +71,21 @@ The Docker software as a service offering consists of three components:
 * Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure the application's services and performs the creation and start-up process of all the containers with a single command. The docker-compose CLI utility allows users to run commands on multiple containers at once, for example, building images, scaling containers, running containers that were stopped, and more. Commands related to image manipulation, or user-interactive options, are not relevant in Docker Compose because they address one container. The docker-compose.yml file is used to define an application's services and includes various configuration options. For example, the build option defines configuration options such as the Dockerfile path, the command option allows one to override default Docker commands, and more. The first public beta version of Docker Compose (version 0.0.1) was released on December 21, 2013. The first production-ready version (1.0) was made available on October 16, 2014.
 * Docker Swarm provides native clustering functionality for Docker containers, which turns a group of Docker engines into a single virtual Docker engine. In Docker 1.12 and higher, Swarm mode is integrated with Docker Engine. The docker swarm CLI utility allows users to run Swarm containers, create discovery tokens, list nodes in the cluster, and more. The docker node CLI utility allows users to run various commands to manage nodes in a swarm, for example, listing the nodes in a swarm, updating nodes, and removing nodes from the swarm. Docker manages swarms using the Raft consensus algorithm. According to Raft, for an update to be performed, the majority of Swarm nodes need to agree on the update.
 
+### How Docker Works under the hood
+
+![](./media/figure1.png)
+![](./media/figure2.png)
 
 ## More Contents
 ### To read
 1. [A Brief History of Containers: From the 1970s Till Now](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
+2. [Linux namespaces](https://en.wikipedia.org/wiki/Linux_namespaces#:~:text=Namespaces%20are%20a%20fundamental%20aspect,type%2C%20used%20by%20all%20processes.)
+3. [Under the hood: understanding docker Containers and images](https://medium.com/codeengineer/understanding-docker-containers-and-images-af40f229ecb3)
+4. [Docker official documentation](https://docs.docker.com/)
 
 ### To watch
-
+1. [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+2. [Docker and Kubernetes Tutorial](https://www.youtube.com/watch?v=bhBSlnQcq2k)
 ### Cheat Sheets
 1. [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 2. [The Ultimate Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
