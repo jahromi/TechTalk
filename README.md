@@ -5,3 +5,4 @@ This repository contains slides and materials that I shared with other developer
 Here is the list of topics:
 * [Git](./git)
 * [Docker](./docker)
+* [Python](./python)
