@@ -12,7 +12,7 @@ Python was created in the late 1980s as a successor to the ABC language. Python 
 ## Python history
 ![Python history](https://media.geeksforgeeks.org/wp-content/uploads/20190502023317/TIMELINE.jpg)
 
-## Why python is famous
+## Python among other programing languages
 
 Python is the third beloved programing languages based on the stackoverflow website:
 
