@@ -73,6 +73,8 @@ There are two common way for installing python interpreter. One is to download a
 ### To watch
 1. [What is Python? Why Python is So Popular?](https://www.youtube.com/watch?v=Y8Tko2YC5hA)
 2. [Python Tutorial - Python for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+3. [Learn Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw)
+4. [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo)
 
 ### Cheat Sheets
 1. [Python Crash Course - Cheat Sheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html)
