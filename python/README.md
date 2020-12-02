@@ -68,6 +68,9 @@ There are two common way for installing python interpreter. One is to download a
 1. [Learn Python Programming](https://www.programiz.com/python-programming)
 2. [Top 10 Reasons Why Python is So Popular With Developers in 2020](https://www.upgrad.com/blog/reasons-why-python-popular-with-developers/#:~:text=The%20python%20language%20is%20one,faster%20than%20other%20programming%20languages.)
 3. [Everything About Python — Beginner To Advanced](https://medium.com/fintechexplained/everything-about-python-from-beginner-to-advance-level-227d52ef32d2)
+4. [Real Python Tutorials](https://realpython.com/)
+5. [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+6. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 
 ### To watch
