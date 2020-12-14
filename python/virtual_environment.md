@@ -413,7 +413,6 @@ Commands:
 2. [Manage your Python Virtual Environment with Conda
 ](https://towardsdatascience.com/manage-your-python-virtual-environment-with-conda-a0d2934d5195)
 3. [Pipenv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/)
-
 4. [Python Environment 101](https://towardsdatascience.com/python-environment-101-1d68bda3094d)
 5. [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 ### To watch
