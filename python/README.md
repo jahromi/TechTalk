@@ -62,6 +62,7 @@ There are two common way for installing python interpreter. One is to download a
 * [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 * [Download Anaconda Individual](https://www.anaconda.com/products/individual)
 * [Download PyCharm](https://www.jetbrains.com/pycharm/)
+* [Virtual Environment in Python](virtual_environment.md)
 
 ## More Contents
 ### To read
