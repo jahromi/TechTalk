@@ -1,13 +1,15 @@
 # Set up Virtual Environments in Python
 In this article we review three different methods to set up virtual and remote Python development environments. These methods can be used depends on how python install on the system and project requirements.
 
+The basic problem being addressed is one of dependencies and versions, and indirectly permissions. Imagine you have an application that needs version 1 of LibFoo, but another application requires version 2. How can you use both these libraries? If you install everything into your host python (e.g. python3.8) it’s easy to end up in a situation where two packages have conflicting requirements.
+
+Or more generally, what if you want to install an application and leave it be? If an application works, any change in its libraries or the versions of those libraries can break the application. Also, what if you can’t install packages into the global site-packages directory, due to not having permissions to change the host python environment?
+
 ### **1. Using venv and virtualenv packages**
 
 virtualenv is a tool to create isolated Python environments. Since Python 3.3, a subset of it has been integrated into the standard library under the venv module. The venv module does not offer all features of this library, to name just a few more prominent:
 
 * is slower (by not having the app-data seed method),
-
-* is not as extendable,
 
 * cannot create virtual environments for arbitrarily installed python versions (and automatically discover these),
 
@@ -415,6 +417,7 @@ Commands:
 3. [Pipenv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/)
 4. [Python Environment 101](https://towardsdatascience.com/python-environment-101-1d68bda3094d)
 5. [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+6. [Pyenv project in GitHub](https://github.com/pyenv/pyenv)
 ### To watch
 1. [Pipenv Crash Course](https://www.youtube.com/watch?v=6Qmnh5C4Pmo)
 2. [How to Use Virtual Environments with the Built-In venv Module (Windows)](https://www.youtube.com/watch?v=APOPm01BVrk)
