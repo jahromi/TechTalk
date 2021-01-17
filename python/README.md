@@ -73,6 +73,7 @@ There are two common way for installing python interpreter. One is to download a
 5. [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
 6. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 7. [Raymond Hettinger, Keynote on Concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk&t=2977s)
+8. [Learn Python Programming](https://www.programiz.com/python-programming)
 
 
 ### To watch
