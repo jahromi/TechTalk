@@ -266,7 +266,7 @@ It is possible to create a Python development environment using Docker and Docke
 ### **Example**
 
 Below steps show how we can create a sample python development environment in PyCharm professional using docker.
-1. create file `requirment.txt` which has list of packages that you new to installed in the docker container.
+1. create file `requirements.txt` which has list of packages that you new to installed in the docker container.
 ```python
 numpy
 scipy
